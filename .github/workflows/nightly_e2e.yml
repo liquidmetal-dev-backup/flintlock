@@ -8,7 +8,7 @@ on:
 jobs:
   e2e:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name != 'pull_request' && github.repository_owner == 'weaveworks-liquidmetal' }}
+    if: ${{ github.event_name != 'pull_request' && github.repository_owner == 'liquidmetal-dev' }}
     env:
       PROJECT_NAME: "flintlock_nightly_e2e"
     name: e2e tests
@@ -54,7 +54,7 @@ jobs:
         verbose: false
 
     - name: Cleanup project
-      uses: weaveworks/metal-janitor-action@27a0594c5c92d85585b553fc0c5ef2a3de7bec95
+      uses: liquidmetal-dev/metal-janitor-action@27a0594c5c92d85585b553fc0c5ef2a3de7bec95
       with:
         metal_auth_token: ${{ secrets.METAL_AUTH_TOKEN }}
         project_names: ${{ env.PROJECT_NAME }}

@@ -79,8 +79,8 @@ implemented at present.**
 
 [grpcurl]: https://github.com/fullstorydev/grpcurl
 [bloomrpc]: https://github.com/uw-labs/bloomrpc
-[payload-example-send]: https://github.com/weaveworks-liquidmetal/flintlock/blob/main/hack/scripts/send.sh
-[payload-example-create]: https://github.com/weaveworks-liquidmetal/flintlock/blob/main/hack/scripts/payload/CreateMicroVM.json
-[payload-example-delete]: https://github.com/weaveworks-liquidmetal/flintlock/blob/main/hack/scripts/payload/DeleteMicroVM.json
+[payload-example-send]: https://github.com/liquidmetal-dev/flintlock/blob/main/hack/scripts/send.sh
+[payload-example-create]: https://github.com/liquidmetal-dev/flintlock/blob/main/hack/scripts/payload/CreateMicroVM.json
+[payload-example-delete]: https://github.com/liquidmetal-dev/flintlock/blob/main/hack/scripts/payload/DeleteMicroVM.json
 [ht]: https://github.com/warehouse-13/hammertime
-[fl]: https://github.com/weaveworks-liquidmetal/fl
+[fl]: https://github.com/liquidmetal-dev/fl

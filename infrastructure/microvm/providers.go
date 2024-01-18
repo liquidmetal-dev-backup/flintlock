@@ -6,10 +6,10 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/weaveworks-liquidmetal/flintlock/core/ports"
-	"github.com/weaveworks-liquidmetal/flintlock/infrastructure/microvm/cloudhypervisor"
-	"github.com/weaveworks-liquidmetal/flintlock/infrastructure/microvm/firecracker"
-	"github.com/weaveworks-liquidmetal/flintlock/internal/config"
+	"github.com/liquidmetal-dev/flintlock/core/ports"
+	"github.com/liquidmetal-dev/flintlock/infrastructure/microvm/cloudhypervisor"
+	"github.com/liquidmetal-dev/flintlock/infrastructure/microvm/firecracker"
+	"github.com/liquidmetal-dev/flintlock/internal/config"
 )
 
 var (

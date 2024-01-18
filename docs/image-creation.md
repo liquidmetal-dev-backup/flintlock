@@ -2,4 +2,4 @@
 
 This doc has been superseded by the [published docs][site].
 
-[site]: https://weaveworks-liquidmetal.github.io/flintlock/docs/guides/images
+[site]: https://liquidmetal-dev.github.io/flintlock/docs/guides/images

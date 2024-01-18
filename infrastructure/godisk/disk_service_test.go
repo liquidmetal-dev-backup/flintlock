@@ -8,7 +8,7 @@ import (
 	g "github.com/onsi/gomega"
 	"github.com/spf13/afero"
 
-	"github.com/weaveworks-liquidmetal/flintlock/core/ports"
+	"github.com/liquidmetal-dev/flintlock/core/ports"
 )
 
 func TestDiskCreation(t *testing.T) {

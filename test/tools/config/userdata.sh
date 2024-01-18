@@ -38,7 +38,7 @@ mv /usr/local/go/bin/go /usr/local/bin
 mkdir -p /root/work && cd /root/work
 
 if [[ -z $FL_USER ]]; then
-	FL_USER=weaveworks
+	FL_USER=liquidmetal-dev
 fi
 
 if [[ -z "$FL_BRANCH" ]]; then

@@ -1,4 +1,4 @@
-module github.com/weaveworks-liquidmetal/flintlock
+module github.com/liquidmetal-dev/flintlock
 
 go 1.20
 
@@ -9,8 +9,8 @@ replace (
 	github.com/containernetworking/cni => github.com/containernetworking/cni v1.1.2
 	github.com/containernetworking/plugins => github.com/containernetworking/plugins v1.1.1
 
-	github.com/weaveworks-liquidmetal/flintlock/api => ./api
-	github.com/weaveworks-liquidmetal/flintlock/client => ./client
+	github.com/liquidmetal-dev/flintlock/api => ./api
+	github.com/liquidmetal-dev/flintlock/client => ./client
 )
 
 require (
@@ -53,8 +53,8 @@ require (
 	github.com/gorilla/mux v1.8.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	github.com/urfave/cli/v2 v2.25.7
-	github.com/weaveworks-liquidmetal/flintlock/api v0.0.0-20230211152005-2177e42d0ee6
-	github.com/weaveworks-liquidmetal/flintlock/client v0.0.0-20230211152005-2177e42d0ee6
+	github.com/liquidmetal-dev/flintlock/api v0.0.0-20230211152005-2177e42d0ee6
+	github.com/liquidmetal-dev/flintlock/client v0.0.0-20230211152005-2177e42d0ee6
 	github.com/yitsushi/file-tailor v1.0.0
 	gopkg.in/yaml.v2 v2.4.0
 	sigs.k8s.io/yaml v1.3.0

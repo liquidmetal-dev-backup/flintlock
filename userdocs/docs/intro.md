@@ -35,8 +35,8 @@ out the [official Liquid Metal docs][lm].
 
 
 [ch]: https://www.cloudhypervisor.org/
-[capmvm]: https://github.com/weaveworks-liquidmetal/cluster-api-provider-microvm
-[proto]: https://buf.build/weaveworks-liquidmetal/flintlock
-[lm]: https://weaveworks-liquidmetal.github.io/site/
+[capmvm]: https://github.com/liquidmetal-dev/cluster-api-provider-microvm
+[proto]: https://buf.build/liquidmetal-dev/flintlock
+[lm]: https://liquidmetal-dev.github.io/site/
 [firecracker]: https://firecracker-microvm.github.io/
 [liquid-metal]: https://www.weave.works/blog/multi-cluster-kubernetes-on-microvms-for-bare-metal

@@ -27,7 +27,7 @@ DEVPOOL_DATA=""
 # firecracker
 FIRECRACKER_VERSION="${FIRECRACKER:=$DEFAULT_VERSION}"
 FIRECRACKER_BIN="firecracker"
-FIRECRACKER_REPO="weaveworks/firecracker"
+FIRECRACKER_REPO="liquidmetal-dev/firecracker"
 
 # containerd
 CONTAINERD_VERSION="${CONTAINERD:=$DEFAULT_VERSION}"
@@ -38,7 +38,7 @@ CONTAINERD_SYSTEMD_SVC=""
 # flintlock
 FLINTLOCK_VERSION="${FLINTLOCK:=$DEFAULT_VERSION}"
 FLINTLOCK_BIN="flintlockd"
-FLINTLOCK_REPO="weaveworks/flintlock"
+FLINTLOCK_REPO="liquidmetal-dev/flintlock"
 FLINTLOCKD_SERVICE_FILE="/etc/systemd/system/flintlockd.service"
 FLINTLOCKD_CONFIG_PATH="/etc/opt/flintlockd/config.yaml"
 

@@ -59,4 +59,4 @@ INFO[0000] starting event listener                       controller=microvm
 INFO[0000] Starting workersnum_workers1                  controller=microvm
 ```
 
-[flint]: https://github.com/weaveworks-liquidmetal/flintlock/releases
+[flint]: https://github.com/liquidmetal-dev/flintlock/releases
