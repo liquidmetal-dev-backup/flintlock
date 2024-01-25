@@ -50,7 +50,7 @@ require (
 	github.com/containerd/typeurl/v2 v2.1.1
 	github.com/diskfs/go-diskfs v1.3.0
 	github.com/docker/go-units v0.5.0
-	github.com/gorilla/mux v1.8.0
+	github.com/gorilla/mux v1.8.1
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	github.com/liquidmetal-dev/flintlock/api v0.0.0-20230211152005-2177e42d0ee6
 	github.com/liquidmetal-dev/flintlock/client v0.0.0-20230211152005-2177e42d0ee6
