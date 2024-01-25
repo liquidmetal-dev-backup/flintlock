@@ -24,7 +24,7 @@ linters-settings:
   misspell:
     locale: GB
   goimports:
-    local-prefixes: github.com/weaveworks/flintlock
+    local-prefixes: github.com/liquidmeta-dev/flintlock
   govet:
     check-shadowing: true
   nolintlint:
@@ -49,10 +49,10 @@ issues:
   - text: "should not use dot imports|don't use an underscore in package name"
     linters:
     - golint
-  - text: "local replacement are not allowed: github.com/weaveworks/flintlock/"
+  - text: "local replacement are not allowed: github.com/liquidmeta-dev/flintlock/"
     linters:
     - gomoddirectives
-  - text: "sig: func github.com/weaveworks/flintlock/"
+  - text: "sig: func github.com/liquidmeta-dev/flintlock/"
     linters:
     - wrapcheck
   - source: "https://"

@@ -19,7 +19,7 @@ jobs:
   #       pip3 install -r test/tools/requirements.txt
   #       test/tools/run.py run-e2e -o ${{ secrets.EQUINIX_ORG_ID }} -p ${{ env.PROJECT_NAME }}
   #   - name: Cleanup project
-  #     uses: weaveworks/metal-janitor-action@27a0594c5c92d85585b553fc0c5ef2a3de7bec95
+  #     uses: liquidmetal-dev/metal-janitor-action@27a0594c5c92d85585b553fc0c5ef2a3de7bec95
   #     with:
   #       metal_auth_token: ${{ secrets.METAL_AUTH_TOKEN }}
   #       project_names: ${{ env.PROJECT_NAME }}

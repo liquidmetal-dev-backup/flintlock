@@ -4,7 +4,7 @@
 * Date: 2021-11-10
 * Authors: @jmickey
 * Deciders: @jmickey @richardcase @Callisto13 @yitsushi
-* ADR Discussion: https://github.com/weaveworks-liquidmetal/flintlock/discussions/241
+* ADR Discussion: https://github.com/liquidmetal-dev/flintlock/discussions/241
 
 ## Context
 

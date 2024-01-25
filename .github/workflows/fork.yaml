@@ -14,7 +14,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        ssh-key: ${{ secrets.WEAVEWORKSBOT_TOKEN }}
+        ssh-key: ${{ secrets.BOT_TOKEN }}
         fetch-depth: 0
     - name: Bump firecracker?
       run: |
@@ -46,7 +46,7 @@ jobs:
           **Note that for now we are mirroring firecracker's releases of v1.1.x, v1.2.x and v1.3.x versions**.
 
           To complete work on this Issue:
-          - [ ] Clone [our fork](https://github.com/weaveworks/firecracker) (if you do not have it already).
+          - [ ] Clone [our fork](https://github.com/liquidmeta-dev/firecracker) (if you do not have it already).
           - [ ] Add the upstream as a remote: `git add remote up https://github.com/firecracker-microvm/firecracker`
           - [ ] Fetch all branches and tags: `git fetch && git fetch --tags`
           - [ ] Check out to the relevant `macvtap` version branch. `feature/macvtap` for a new `v1.2.x` release, `feature/macvtapv11x` for a new `v1.1.x` release.
@@ -56,7 +56,7 @@ jobs:
           - [ ] Make sure it builds. (`tools/devtool build`)
           - [ ] Push the updated firecracker 'feature/macvtap' (or `firecracker/macvtapv12`, etc) fork branch.
           - [ ] Create a new tag on the updated firecracker fork branch: `git tag -s ${{ env.NEW_VERSION}}-macvtap -m ${{ env.NEW_VERSION }}-macvtap`.
-          - [ ] Push the tag to the fork: `git push <remote> ${{ env.NEW_VERSION }}-macvtap` (A new [release](https://github.com/weaveworks/firecracker/releases) will be created.)
+          - [ ] Push the tag to the fork: `git push <remote> ${{ env.NEW_VERSION }}-macvtap` (A new [release](https://github.com/liquidmeta-dev/firecracker/releases) will be created.)
           - [ ] In this repo, trigger the `nightly_e2e` workflow
           - [ ] Once the tests have passed you can close the Issue, if the tests fail, either fix them or unrelease the version
 
@@ -67,7 +67,7 @@ jobs:
       uses: actions-ecosystem/action-slack-notifier@fc778468d09c43a6f4d1b8cccaca59766656996a
       with:
         slack_token: ${{ secrets.SLACK_TOKEN }}
-        message: "There is a new version of Firecracker, complete the todo list here: <https://github.com/weaveworks-liquidmetal/flintlock/issues/${{ steps.issue.outputs.issue-number }}|#${{ steps.issue.outputs.issue-number }}>."
+        message: "There is a new version of Firecracker, complete the todo list here: <https://github.com/liquidmetal-dev/flintlock/issues/${{ steps.issue.outputs.issue-number }}|#${{ steps.issue.outputs.issue-number }}>."
         channel: liquid-metal-dev
         color: green
         verbose: false

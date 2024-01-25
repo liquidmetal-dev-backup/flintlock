@@ -21,7 +21,7 @@ jobs:
       - name: Build docs
         run: make docs-build
   release:
-    if: ${{ github.event_name != 'pull_request' && github.repository_owner == 'weaveworks-liquidmetal' }}
+    if: ${{ github.event_name != 'pull_request' && github.repository_owner == 'liquidmetal-dev' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -41,5 +41,5 @@ jobs:
           DEPLOYMENT_BRANCH: gh-pages
         run: |
           git config --global user.email "noreply@github.com"
-          git config --global user.name "weaveworks-docs-bot"
+          git config --global user.name "liquidmetal-docs-bot"
           make docs-deploy

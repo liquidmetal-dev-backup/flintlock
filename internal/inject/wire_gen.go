@@ -8,17 +8,17 @@ package inject
 
 import (
 	"github.com/spf13/afero"
-	"github.com/weaveworks-liquidmetal/flintlock/core/application"
-	"github.com/weaveworks-liquidmetal/flintlock/core/ports"
-	"github.com/weaveworks-liquidmetal/flintlock/infrastructure/containerd"
-	"github.com/weaveworks-liquidmetal/flintlock/infrastructure/controllers"
-	"github.com/weaveworks-liquidmetal/flintlock/infrastructure/godisk"
-	"github.com/weaveworks-liquidmetal/flintlock/infrastructure/grpc"
-	"github.com/weaveworks-liquidmetal/flintlock/infrastructure/microvm"
-	"github.com/weaveworks-liquidmetal/flintlock/infrastructure/network"
-	"github.com/weaveworks-liquidmetal/flintlock/infrastructure/ulid"
-	"github.com/weaveworks-liquidmetal/flintlock/internal/config"
-	"github.com/weaveworks-liquidmetal/flintlock/pkg/defaults"
+	"github.com/liquidmetal-dev/flintlock/core/application"
+	"github.com/liquidmetal-dev/flintlock/core/ports"
+	"github.com/liquidmetal-dev/flintlock/infrastructure/containerd"
+	"github.com/liquidmetal-dev/flintlock/infrastructure/controllers"
+	"github.com/liquidmetal-dev/flintlock/infrastructure/godisk"
+	"github.com/liquidmetal-dev/flintlock/infrastructure/grpc"
+	"github.com/liquidmetal-dev/flintlock/infrastructure/microvm"
+	"github.com/liquidmetal-dev/flintlock/infrastructure/network"
+	"github.com/liquidmetal-dev/flintlock/infrastructure/ulid"
+	"github.com/liquidmetal-dev/flintlock/internal/config"
+	"github.com/liquidmetal-dev/flintlock/pkg/defaults"
 	"time"
 )
 

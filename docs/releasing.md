@@ -30,7 +30,7 @@ git tag -s "${RELEASE_VERSION}" -m "${RELEASE_VERSION}"
 git push origin "${RELEASE_VERSION}"
 ```
 
-* Check the [release](https://github.com/weaveworks-liquidmetal/flintlock/actions/workflows/release.yml) GitHub Actions workflow completes successfully.
+* Check the [release](https://github.com/liquidmetal-dev/flintlock/actions/workflows/release.yml) GitHub Actions workflow completes successfully.
   This may take a few minutes as it runs the e2es as part of the process.
 
 ## Edit & Publish GitHub Release
@@ -44,7 +44,7 @@ git push origin "${RELEASE_VERSION}"
 
 ## Commit a new `buf` tag
 
-We have gRPC API docs hosted on [buf.build](https://buf.build/weaveworks-liquidmetal/flintlock).
+We have gRPC API docs hosted on [buf.build](https://buf.build/liquidmetal-dev/flintlock).
 If the API has changed, you'll need to update these.
 
 Log in creds can be found in the shared Team Quicksilver 1Pass vault.
@@ -55,7 +55,7 @@ Log in locally:
 
 ```
 buf registry login
-# username is weaveworks-liquidmetal
+# username is liquidmetal-dev
 # key is the token you generated
 ```
 

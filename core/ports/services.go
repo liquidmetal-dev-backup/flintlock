@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	mvmv1 "github.com/weaveworks-liquidmetal/flintlock/api/services/microvm/v1alpha1"
-	"github.com/weaveworks-liquidmetal/flintlock/core/models"
+	mvmv1 "github.com/liquidmetal-dev/flintlock/api/services/microvm/v1alpha1"
+	"github.com/liquidmetal-dev/flintlock/core/models"
 )
 
 // MicroVMService is the port definition for a microvm service.

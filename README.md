@@ -1,15 +1,15 @@
 
 # Flintlock - Create and manage the lifecycle of MicroVMs, backed by containerd.
 
-[![GitHub](https://img.shields.io/github/license/weaveworks/flintlock)](https://img.shields.io/github/license/weaveworks/flintlock)
-[![codecov](https://codecov.io/gh/weaveworks/flintlock/branch/main/graph/badge.svg?token=ZNPNRDI8Z0)](https://codecov.io/gh/weaveworks/flintlock)
-[![Go Report Card](https://goreportcard.com/badge/github.com/weaveworks-liquidmetal/flintlock)](https://goreportcard.com/report/github.com/weaveworks-liquidmetal/flintlock)
+[![GitHub](https://img.shields.io/github/license/liquidmeta-dev/flintlock)](https://img.shields.io/github/license/liquidmeta-dev/flintlock)
+[![codecov](https://codecov.io/gh/liquidmeta-dev/flintlock/branch/main/graph/badge.svg?token=ZNPNRDI8Z0)](https://codecov.io/gh/liquidmeta-dev/flintlock)
+[![Go Report Card](https://goreportcard.com/badge/github.com/liquidmetal-dev/flintlock)](https://goreportcard.com/report/github.com/liquidmetal-dev/flintlock)
 
 ## What is flintlock?
 
 Flintlock is a service for creating and managing the lifecycle of microVMs on a host machine. We support [Firecracker](https://firecracker-microvm.github.io/) and [Cloud Hypervisor](https://www.cloudhypervisor.org/) (experimental).
 
-The original use case for flintlock was to create microVMs on a bare-metal host where the microVMs will be used as nodes in a virtualized Kubernetes cluster. It is an essential part of [Liquid Metal](https://www.weave.works/blog/multi-cluster-kubernetes-on-microvms-for-bare-metal) and can be orchestrated by [Cluster API Provider Microvm](https://github.com/weaveworks-liquidmetal/cluster-api-provider-microvm).
+The original use case for flintlock was to create microVMs on a bare-metal host where the microVMs will be used as nodes in a virtualized Kubernetes cluster. It is an essential part of [Liquid Metal](https://www.weave.works/blog/multi-cluster-kubernetes-on-microvms-for-bare-metal) and can be orchestrated by [Cluster API Provider Microvm](https://github.com/liquidmetal-dev/cluster-api-provider-microvm).
 
 However, its useful for many other use cases where lightweight virtualization is required (e.g. isolated workloads, pipelines).
 
@@ -69,11 +69,11 @@ The table below shows you which versions of Firecracker are compatible with Flin
 
 [MPL-2.0 License][license]
 
-[quickstart]: https://weaveworks-liquidmetal.github.io/flintlock/docs/category/getting-started/
+[quickstart]: https://liquidmetal-dev.github.io/flintlock/docs/category/getting-started/
 [contrib]: ./CONTRIBUTING.md
 [coc]: ./CODE_OF_CONDUCT.md
-[issues]: https://github.com/weaveworks-liquidmetal/flintlock/issues
-[milestones]: https://github.com/weaveworks-liquidmetal/flintlock/milestones
+[issues]: https://github.com/liquidmetal-dev/flintlock/issues
+[milestones]: https://github.com/liquidmetal-dev/flintlock/milestones
 [adr]: ./docs/adr
 [license]: ./LICENSE
-[fc-fork]: https://github.com/weaveworks/firecracker/releases
+[fc-fork]: https://github.com/liquidmeta-dev/firecracker/releases

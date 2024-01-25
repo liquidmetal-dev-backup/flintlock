@@ -1,7 +1,7 @@
 #!/bin/bash -ex
 
 UPSTREAM_ORG=firecracker-microvm
-FORK_ORG=weaveworks
+FORK_ORG=liquidmetal-dev
 
 latest_release() {
     curl -s "https://api.github.com/repos/$1/firecracker/releases/latest" | awk -F'"' '/tag_name/ {printf $4}'
