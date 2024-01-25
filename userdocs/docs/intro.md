@@ -10,12 +10,11 @@ title: Introduction
 ## What is flintlock?
 
 Flintlock is a service for creating and managing the lifecycle of microVMs on a
-host machine. Initially we will be supporting [Firecracker][firecracker],
-with an aim to default to [Cloud Hypervisor][ch] in the future.
+host machine. Wel support [Firecracker][firecracker] and [Cloud Hypervisor][ch].
 
 The primary use case for flintlock is to create microVMs on a bare-metal host
 where the microVMs will be used as nodes in a virtualized Kubernetes cluster.
-It is an essential part of [Liquid Metal][liquid-metal] and will ultimately be
+It is an essential part of **Liquid Metal** and can be
 driven by [Cluster API Provider Microvm][capmvm].
 
 ## Features
@@ -39,4 +38,3 @@ out the [official Liquid Metal docs][lm].
 [proto]: https://buf.build/liquidmetal-dev/flintlock
 [lm]: https://liquidmetal-dev.github.io/site/
 [firecracker]: https://firecracker-microvm.github.io/
-[liquid-metal]: https://www.weave.works/blog/multi-cluster-kubernetes-on-microvms-for-bare-metal

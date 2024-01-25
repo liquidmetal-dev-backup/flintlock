@@ -95,19 +95,6 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Slack',
-          //       href: 'https://slack.weave.works/',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/weaveworks',
-          //     },
-          //   ],
-          // },
           {
             title: 'More',
             items: [
